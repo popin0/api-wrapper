@@ -2,9 +2,10 @@
   "name": "wrapper",
   "version": "1.0.0",
   "description": "Acts as a proxy for traffic from pcf to allstate",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,10 @@
   },
   "homepage": "https://github.com/popin0/wrapper#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
