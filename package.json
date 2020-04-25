@@ -1,0 +1,27 @@
+{
+  "name": "wrapper",
+  "version": "1.0.0",
+  "description": "Acts as a proxy for traffic from pcf to allstate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popin0/wrapper.git"
+  },
+  "keywords": [
+    "proxy",
+    "api",
+    "wrapper"
+  ],
+  "author": "popin0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popin0/wrapper/issues"
+  },
+  "homepage": "https://github.com/popin0/wrapper#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
